@@ -1,0 +1,4 @@
+- To install `npx create-next-app@latest ./` for current folder
+- set `turbopackFileSystemCacheForDev: true,` in `next.config.ts`
+- To run `npm run dev`
+- Main entry point is `layout.tsx`
