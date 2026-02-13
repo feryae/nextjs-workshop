@@ -2,3 +2,8 @@
 - set `turbopackFileSystemCacheForDev: true,` in `next.config.ts`
 - To run `npm run dev`
 - Main entry point is `layout.tsx`
+- Server components are only renderd server side but client components are prerendered in server side and hydrated client side)
+- Good rule of thumb is to leave it as a server component until you need interactivity
+- You can enable react compiler by `npm install babel-plugin-react-compiler@latest` then on `next.config.ts` put `reactCompiler: true`
+- Nextjs uses file/folder based routing
+- components folder contains components, not pages, so usually its outside app
